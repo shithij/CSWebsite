@@ -620,9 +620,13 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
-		color: #39454b;
+		background: #000000;
+		color: #FFFFFF;
 		padding: 2em;
+	}
+	.box h2 {
+		color:red;
+		font-weight: 100;
 	}
 
 		.box > :last-child {
@@ -1172,6 +1176,12 @@ input, select, textarea {
 			display: block;
 			margin: 1em 0 0 0;
 			padding: 0 0 0.5em 0;
+		}
+
+		header h2 {
+			color:#DCDCDC;
+			font-weight: 100;
+			font-family:Title;
 		}
 
 	footer {
@@ -1919,7 +1929,6 @@ input, select, textarea {
 	}
 
 		.main > .content {
-			width: 45em;
 			max-width: calc(100% - 4em);
 			margin: 0 auto;
 		}
@@ -2150,11 +2159,12 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background-color: #FFFFFF;
+		background-color: #000000;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
+		color: #FFFFFF;
 	}
 
 /* One */
@@ -2174,3 +2184,16 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
+#work {
+	background: black;
+	color: white;
+}
+
+.imagecontent {
+	background: #1d1d1d;
+	padding: 100px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}

@@ -1,37 +1,144 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+
     <title>NIE IEEE CS | About </title>
-    {% include 'head.html' %}
-		
+    <!--{% include 'head.html' %}-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="{{url_for('static', filename='css/animations.css')}}" />
+    <link rel="stylesheet" type="text/css" media="screen" href="{{url_for('static', filename='css/style.css')}}" />
+    <noscript><link rel="stylesheet" href="{{url_for('static', filename='css/noscript_home.css')}}" /></noscript>
+    <link rel="stylesheet" type="text/css" media="screen" href="{{url_for('static',filename='css/home_css.css')}}" />
+
 </head>
-<body>
+<body class="is-preload">
     {% include 'menu.html'%}
     {% include 'back_to_top.html'%}
     <div id="page_container">
+    <!-- Intro -->
+      <section id="intro" class="main style1 dark fullscreen">
+        <div class="">
+          <header>
+            <h2><span>NIE IEEE <br>Computer Society</span></h2>
+          </header>
+          <img src="static/images/cs.png" alt="notfound" height="300px" width="300px">
+        </div>
+      </section>
 
-    <!--PUT STUFF HERE-->
+    <!-- One -->
+      <section id="one" class="main style2 right dark fullscreen">
+        <div class="content box style2">
+          <header>
+            <h2>NIE IEEE Computer Society</h2>
+          </header>
+          <p>IEEE has many societies under its umbrella.
+            One of its largest and most active societies is the IEEE Computer Society.
+            NISB has started its Computer Society chapter two years ago with only 15 members and currently has a whopping a figure of 60 members.
+            Through NISB, IEEE students of NIE can take up student membership for the Computer Society</p>
+        </div>
+      </section>
 
-    </div>
+    <!-- Two -->
+      <section id="two" class="main style2 left dark fullscreen">
+        <div class="content box style2">
+          <header>
+            <h2>Mission and Vision</h2>
+          </header>
+          <p>
+            To be the leading provider of technical information, community services, and personalized services to the world's computing professionals.
+             Our mission is to be essential to the global technical community and computer professionals everywhere and be universally recognized for
+             the contributions of technical professionals in developing and applying technology to improve global conditions.
+          </p>
+        </div>
+      </section>
+
+      <!-- Three -->
+        <section id="one" class="main style2 right dark fullscreen">
+          <div class="content box style2">
+            <header>
+              <h2>Computer Society Member Benefits</h2>
+            </header>
+            <ul style="list-style-type : disc;">
+              <li>Access to exclusive resources at <a href="https://www.computer.org/web/guest"><span><b><i>computer.org</i></b></span></a></li>
+              <li>Volunteering opportunities at IEEE Computer Society events</li>
+              <li>Discounts at Computer Society events in college level</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Four -->
+          <section id="two" class="main style2 left dark fullscreen">
+            <div class="content box style2">
+              <header>
+                <h2>Mission and Vision</h2>
+              </header>
+              <p>
+                To be the leading provider of technical information, community services, and personalized services to the world's computing professionals.
+                 Our mission is to be essential to the global technical community and computer professionals everywhere and be universally recognized for
+                 the contributions of technical professionals in developing and applying technology to improve global conditions.
+              </p>
+            </div>
+          </section>
+    <!-- Work -->
+      <section id="work" class="main style3 primary">
+        <div class="imagecontent">
+          <header>
+            <h2>We at IEEE Computer Society strive to achieve excellence through</h2>
+            <ul style="list-style-type: none;">
+              <li>Regular Computer Society Weekly Meetups</li>
+              <li>Major and minor projects</li>
+              <li>Events to enhance knowledge and explore various technical fields</li>
+              <li>Proper teamwork and networking through which ideas are shared and brainstormed</li>
+              <li>Hardwork and raw passion for technology</li>
+            </ul>
+
+          </header>
+
+        <!-- Gallery  -->
+          <div class="gallery">
+            <article class="from-left">
+              <a href="static/images/fulls/1.jpg" class="image fit"><img src="static/images/thumbs/1.jpg" title="AWS workshop" alt="" width="400px" height="400px"/></a>
+            </article>
+            <article class="from-right">
+              <a href="static/images/fulls/2.jpg" class="image fit"><img src="static/images/thumbs/2.jpg" title="AWS workshop" alt="" width="400px" height="400px"/></a>
+            </article>
+            <article class="from-left">
+              <a href="static/images/fulls/3.jpg" class="image fit"><img src="static/images/thumbs/3.jpg" title="Just Hack - Hackathon" alt="" width="400px" height="400px"/></a>
+            </article>
+            <article class="from-right">
+              <a href="static/images/fulls/4.jpg" class="image fit"><img src="static/images/thumbs/4.jpg" title="CodeGeeks Event" alt="" width="400px" height="400px"/></a>
+            </article>
+            <article class="from-left">
+              <a href="static/images/fulls/5.jpg" class="image fit"><img src="static/images/thumbs/5.jpg" title="CodeLabs Event" alt="" width="400px" height="600px"/></a>
+            </article>
+            <article class="from-right">
+              <a href="static/images/fulls/6.jpg" class="image fit"><img src="static/images/thumbs/6.jpg" title="CodeGeeks Event" alt="" width="400px" height="400px"/></a>
+            </article>
+          </div>
+
+      </div>
+    </section>
+
+  <!-- Scripts -->
+    
 
     {% include 'footer.html'%}
-    {% include 'scripts.html' %}
+  </div>
+  <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/jquery.poptrox.min.js"></script>
+    <script src="static/js/jquery.scrolly.min.js"></script>
+    <script src="static/js/jquery.scrollex.min.js"></script>
+    <script src="static/js/browser.min.js"></script>
+    <script src="static/js/breakpoints.min.js"></script>
+    <script src="static/js/util_home.js"></script>
+    <script src="static/js/main_home.js"></script>
 </body>
-  
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
