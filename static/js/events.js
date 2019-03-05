@@ -19,22 +19,18 @@ db.ref("events").orderByChild("timeStamp").on("value", function(snapshot) {
             var date = this.data[k]["date"].split("-");
             var eventDate = new Date(date[2], date[1]-1, date[0]);
             var event = `
-            <div class="grid column is-one-third no-padding">
+            <div class="grid">
                 <figure class="effect-layla">
                     <img src=`+ this.data[k]["imgUrl"] +` alt="img03">
                     <figcaption>
-                        <div class="details">
-                            <p>
-                                <h1>`  + this.data[k]["name"]  + `</h1>
-                                <br>
-                                <h3>
-                                <span>Venue:</span>` +this.data[k]["venue"]  +  `
-                                <br>
-                                <span>Date:</span>` + this.data[k]["date"] + `
-                                <br>
-                                <span>Time:</span>` + this.data[k]["time"] +  `
-                                </h3>
-                            </p>
+                    
+                        <div class="details">        
+                            <h1>`  + this.data[k]["name"]  + `</h1>
+                            <span>Venue:</span>` +this.data[k]["venue"]  +  `
+                            <br>
+                            <span>Date:</span>` + this.data[k]["date"] + `
+                            <span>Time:</span>` + this.data[k]["time"] +  `
+                        
                         </div>
                     </figcaption>			
                 </figure>
