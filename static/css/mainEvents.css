@@ -95,7 +95,7 @@
     width: 100%;
 }
 .eventBox {
-    margin-top: 1.25rem;
+    margin: 1.25rem;
 }
 
 
@@ -105,18 +105,24 @@
 /* EVENT HOVER ANIMATIONS */
 .details {
 	background: rgba(0,0,0,0.8);
-	height: 225px;
+	height: 100%;
 	display: block;
     position: relative;
+    margin: 10px;
     
 }
-.details h3{
-    text-align: left;
+.details h1{
+    text-align: center;
+    font-size: 22px;
 }
 .grid {
 	position: relative;
 	list-style: none;
-	text-align: center;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    margin: 5px;
 }
 
 /* Common style */
@@ -124,7 +130,6 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
 }
@@ -138,7 +143,7 @@
 }
 
 .grid figure figcaption {
-	padding: 2em;
+	padding: 1em;
 	color: #fff;
 	text-transform: uppercase;
 	-webkit-backface-visibility: hidden;
@@ -198,7 +203,6 @@
 
 figure.effect-layla {
     width: 100%;
-	background: #12b3f3;
 }
 
 figure.effect-layla img {
