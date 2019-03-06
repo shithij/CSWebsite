@@ -16,7 +16,9 @@ db.ref("events").orderByChild("timeStamp").on("value", function(snapshot) {
     var upEvents = "";
     Object.keys(this.data).forEach(function(k){
         if (this.data[k]["name"] !== "dummy" && this.data[k]["organiser"] == "Computer Society") {
-            var date = this.data[k]["date"].split("-");
+            if(!(this.data[k]['name']=="Enigma")){
+               
+                var date = this.data[k]["date"].split("-");
             var eventDate = new Date(date[2], date[1]-1, date[0]);
             var event = `
             <div class="grid">
@@ -43,6 +45,9 @@ db.ref("events").orderByChild("timeStamp").on("value", function(snapshot) {
             } else if ((todayDate - eventDate) > 0) {
                 pastEvents = event + pastEvents;
             }
+
+            }
+            
         }
     });
     todayEventsDiv.innerHTML = todayEvents;
