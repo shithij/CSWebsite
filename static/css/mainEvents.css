@@ -34,9 +34,23 @@
     align-items: center;
     margin-bottom: 1.25rem;
     position: relative;
-    text-align: center;
+	text-align: center;
+	background: #1d1d1d;
+    margin: 10px;
+	padding: 100px 20px;
+	border-radius: 5px;
+}
+.eventBoxWrap h1{
+	color: #B10C2D;
+	font-family: 'Title';
+	padding: 40px 70px;
+	background: #28282a;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+.eventBoxWrap p{
+	color:white;
+}
 .eventBox {
     display: inline-block;
     width: 100%;
@@ -108,12 +122,14 @@
 	height: 100%;
 	display: block;
     position: relative;
-    margin: 10px;
+    margin: 5px;
     
 }
 .details h1{
     text-align: center;
-    font-size: 22px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #B10C2D;
 }
 .grid {
 	position: relative;
@@ -166,7 +182,8 @@
 	height: 100%;
 }
 .details span {
-    color: #B10C2D;
+	color: #B10C2D;
+	font-family: sans-serif;
 }
 
 /* Anchor will cover the whole item by default */
@@ -254,7 +271,7 @@ figure.effect-layla h2 {
 }
 
 figure.effect-layla .details {
-	padding: 0.5em 2em;
+	padding: 0.5em 1em;
 	text-transform: none;
 	opacity: 0;
 	-webkit-transform: translate3d(0,-10px,0);

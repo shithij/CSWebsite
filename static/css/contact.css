@@ -26,7 +26,8 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: red;
+  background-color: #B10C2D;
+  border: 1px solid #B10C2D;
 }
 
 /* Add a background color and some padding around the form */
@@ -43,6 +44,6 @@ input[type=submit]:hover {
   color: white;
 }
 
-.contact_container h2 {
-  color: red;
+.contact_container h1 {
+  color: #B10C2D;
 }

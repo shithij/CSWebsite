@@ -620,13 +620,15 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #000000;
+		background: #1d1d1d;
 		color: #FFFFFF;
 		padding: 2em;
 	}
 	.box h2 {
-		color:red;
-		font-weight: 100;
+		color: #B10C2D;
+		padding: 20px 50px;
+		background: #28282a;
+		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	}
 
 		.box > :last-child {
@@ -645,7 +647,6 @@ input, select, textarea {
 
 				.box.style2 {
 					padding: 1.5em 1.25em 1.5em 1.25em;
-					background-color: rgba(255, 255, 255, 0.9);
 				}
 
 		}
@@ -1439,15 +1440,16 @@ input, select, textarea {
 			position: relative;
 			opacity: 1.0;
 		}
-
+			.gallery article a{
+				width: 99% !important;
+			}
 			.gallery article .image {
-				margin: 0;
 				width: 400px;
 				height: 400px;
 			}
 
 			.gallery article {
-				margin-bottom: -80px;
+				margin-bottom: -60px;
 			}
 
 			.gallery article:nth-last-child(1n) {
@@ -2193,7 +2195,11 @@ input, select, textarea {
 	box-sizing: border-box;
 	margin: 0 auto;
 }
-
+.imagecontent h2{
+	padding: 40px 70px;
+	background: #28282a;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 
 /* ABOUT BACKGROUND */
 .background{
