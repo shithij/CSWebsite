@@ -1183,6 +1183,7 @@ input, select, textarea {
 			color:#DCDCDC;
 			font-weight: 100;
 			font-family:Title;
+			border-radius: 5px;
 		}
 
 	footer {
