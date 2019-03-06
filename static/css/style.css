@@ -67,7 +67,7 @@ body{
 #primaryNav{
     width: 10%;
     height: 100vh;
-    background: rgb(27, 27, 27);
+    background:#1d1d1d;
     font-family: sans-serif;
     position: fixed;
     top:0;
