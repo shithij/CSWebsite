@@ -1,21 +1,26 @@
-.img{
-	width: 100px;
-	height: 100px;
-	align-items: center;
-	position: middle;
+.logoCont{
+	text-align: center;
+	padding: 50px 0;
+	margin: 50px 0;
+}
+.logoCont img{
+	width: 800px;
 }
 
-.headi{
-	text-align: center;
-	color: #B10C2D;
-}
 
 .content{
 	text-align: left;
-	background-color: white;
-	color: black;
-	margin: 20%;
-	padding: 20px;
+	background-color: #1d1d1d;
+	color: white;
+	margin:0 20% ;
+	padding: 50px;
+}
+
+.content h1{
+	text-align: center;
+	background: #28282a;
+	padding: 30px 70px;
+	color: #6AD6E3;
 }
 
 .tab{
@@ -34,4 +39,7 @@ table {
   border-spacing: 5px;
   width: 75%;
   height: 100px;
+}
+table h2{
+	padding-top: 30px;
 }

@@ -80,7 +80,16 @@ body{
 
     text-align: center;
 }
-
+@media screen and (max-width: 600px){
+    #page_container{
+        width: 100vw;
+        margin: 0;
+    }
+    #primaryNav{
+        width: 100%;
+        height: 30px;
+    }
+}
 .menu {
     
 	height: 100vh;
@@ -225,18 +234,27 @@ body{
     
     #primaryNav{
         padding: 0;
+        height: 10vh;
     }
     .navbar-brand{
         padding: 20px;
     }
     #navbarBasicExample{
+        display: none;
+        background: black;
+        height: 90vh;
+        top: 10vh;
+        padding-top: 100px;
         padding: 20px;
-        height: 100vh;
         width: 60vw;
         float: right;
-        position: absolute;
+        position: fixed;
         right: 0px;
         z-index: 1000;
+    }
+    
+    .is-active{
+        display: block !important;
     }
 }
 
