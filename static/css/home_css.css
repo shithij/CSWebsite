@@ -1444,7 +1444,8 @@ input, select, textarea {
 				width: 99% !important;
 			}
 			.gallery article .image {
-				width: 400px;
+				margin-bottom: -39px;
+			  width: 400px;
 				height: 400px;
 			}
 
@@ -1927,7 +1928,7 @@ input, select, textarea {
 		display: flex;
 		position: relative;
 		margin: 0;
-		
+
 	}
 
 		.main > .content {
@@ -2161,7 +2162,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		
+
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2172,9 +2173,9 @@ input, select, textarea {
 /* One */
 
 	#one {
-		
-		
-		
+
+
+
 	}
 
 /* Two */
@@ -2207,14 +2208,14 @@ input, select, textarea {
 	filter: blur(0px);
 }
 .background{
-	
+
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	
+
 	background-attachment: fixed, fixed;
 	background-size: cover;
-	
+
 	background-repeat: no-repeat;
 	filter: blur(10px);
 	transition: all 0.2s ease-in;
