@@ -40,7 +40,7 @@
 	padding: 100px 20px;
 	border-radius: 5px;
 }
-.eventBoxWrap h1{
+.eventBoxWrap > h1{
 	color: #B10C2D;
 	font-family: 'Title';
 	padding: 40px 70px;
@@ -114,7 +114,21 @@
 
 
 
-
+.detailsMobile{
+	display: none;
+	background: #28282a;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+	
+}
+.detailsMobile h1{
+	font-family: 'Title';
+    text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	width: 100%;
+}
 
 /* EVENT HOVER ANIMATIONS */
 .details {
@@ -318,4 +332,21 @@ figure.effect-layla:hover .details,
 figure.effect-layla:hover img {
 	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
+}
+
+@media screen and (max-width: 600px){
+	.grid{
+		width: 100%;
+	}
+	.details{
+		display: none;
+	}
+	.detailsMobile{
+		display: block;
+	}
+	
+	.eventBoxWrap{
+		padding: 0;
+	}
+	
 }

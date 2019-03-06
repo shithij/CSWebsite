@@ -36,6 +36,16 @@ db.ref("events").orderByChild("timeStamp").on("value", function(snapshot) {
                         </div>
                     </figcaption>			
                 </figure>
+                <div class="detailsMobile">        
+                    <h1>`  + this.data[k]["name"]  + `</h1>
+                    <span>Venue:</span>` +this.data[k]["venue"]  +  `
+                    <br>
+                    <span>Date:</span>` + this.data[k]["date"] + `
+                    <span>Time:</span>` + this.data[k]["time"] +  `
+                    <br>
+                    <br>
+                    <br>
+                </div>
             </div>
             `;
             if ((todayDate - eventDate) === 0) {

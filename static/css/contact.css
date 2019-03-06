@@ -47,3 +47,9 @@ input[type=submit]:hover {
 .contact_container h1 {
   color: #B10C2D;
 }
+@media screen and (max-width: 600px){
+  .contact_container{
+    padding: 40px;
+    margin: 10px;
+  }
+}
