@@ -26,6 +26,7 @@
 #page_container{
     width: 90%;
     margin-left: 10%;
+    background: black;
 }
 .no-padding{
     padding: 0 !important;
