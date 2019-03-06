@@ -1,16 +1,21 @@
 .img{
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 	align-items: center;
 	position: middle;
 }
 
 .headi{
 	text-align: center;
+	color: #B10C2D;
 }
 
 .content{
-	text-align: center;
+	text-align: left;
+	background-color: white;
+	color: black;
+	margin: 20%;
+	padding: 20px;
 }
 
 .tab{
@@ -27,4 +32,6 @@ table, th, td {
 }
 table {
   border-spacing: 5px;
+  width: 75%;
+  height: 100px;
 }
