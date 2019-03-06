@@ -1,0 +1,30 @@
+.img{
+	width: 200px;
+	height: 200px;
+	align-items: center;
+	position: middle;
+}
+
+.headi{
+	text-align: center;
+}
+
+.content{
+	text-align: center;
+}
+
+.tab{
+	text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-spacing: 5px;
+}
