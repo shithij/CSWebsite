@@ -2203,6 +2203,9 @@ input, select, textarea {
 }
 
 /* ABOUT BACKGROUND */
+.box:hover .background{
+	filter: blur(0px);
+}
 .background{
 	
 	position: absolute;
