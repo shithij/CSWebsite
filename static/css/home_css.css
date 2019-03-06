@@ -1183,12 +1183,17 @@ input, select, textarea {
 			color:#DCDCDC;
 			font-weight: 100;
 			font-family:Title;
+			border-radius: 5px;
 		}
 
 	footer {
 		margin-top: 2em;
 	}
-
+	.shit img
+	{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
 /* Table */
 
 	table {
