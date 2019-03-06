@@ -11,13 +11,14 @@
     {% include 'menu.html'%}
     {% include 'back_to_top.html'%}
     <div id="page_container">
-    <div  class = "container">
+    <div  class = "container contact_container">
+        <h2>Contact Us</h2>
         <p id="validMessage"></p>
         <form name="Contact" action="/Contact" method="POST">
-            <strong><font color="black">Name : </font></strong><input type = "text" name = "contactName" required><br>
-            <strong><font color="black">Email : </font></strong><input type="text" name = "contactEmail" required><br>
-            <strong><font color="black">Subject : </font></strong><input type="text" name = "contactSubject" required><br>
-            <strong><font color="black">Message :</font></strong><input type="text" name = "contactMessage" required><br><br>
+            <strong>Name :</strong><input type = "text" name = "contactName" required><br>
+            <strong>Email : </strong><input type="text" name = "contactEmail" required><br>
+            <strong>Subject :</strong><input type="text" name = "contactSubject" required><br>
+            <strong>Message :</strong><input type="text" name = "contactMessage" required><br><br>
             <input type="submit" value="Submit" onclick="validate()">
         </form>
         {{ message }}

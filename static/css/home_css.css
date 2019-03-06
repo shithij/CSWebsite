@@ -2197,3 +2197,7 @@ input, select, textarea {
 	box-sizing: border-box;
 	margin: 0 auto;
 }
+
+.imagecontent h2 {
+	color: red;
+}
