@@ -1188,7 +1188,11 @@ input, select, textarea {
 	footer {
 		margin-top: 2em;
 	}
-
+	.shit img
+	{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
 /* Table */
 
 	table {
