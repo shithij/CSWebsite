@@ -6,12 +6,12 @@ function validate()
     var Email = document.forms["Contact"]["contactEmail"].value;
     var Subject = document.forms["Contact"]["contactSubject"].value;
     var Message = document.forms["Contact"]["contactMessage"].value;
-    if( nameFormat.test(Name) )
+    if( nameFormat.test(Name) && !Name == "")
     {
         document.getElementById("validMessage").innerHTML = "Name cannot be blank or have special characters";
         return false;
     }
-    if( !mailFormat.test(Email) )
+    if( !mailFormat.test(Email) && !Email == "")
     {
         document.getElementById("validMessage").innerHTML = "Invalid e-mail entered";
         return false;
