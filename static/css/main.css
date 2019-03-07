@@ -1647,3 +1647,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+.arrow {
+	background: #B10C2D;
+	border-radius: 50%;
+}
