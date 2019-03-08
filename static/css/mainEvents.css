@@ -1,5 +1,5 @@
 #eventsMain {
-    
+
     margin: 0 auto;
     margin-top: 0.5rem;
     align-items: center;
@@ -30,7 +30,7 @@
 .eventBoxWrap {
     display: flex;
     flex-flow: column wrap;
-    
+
     align-items: center;
     margin-bottom: 1.25rem;
     position: relative;
@@ -119,8 +119,8 @@
 	background: #28282a;
 	padding: 10px;
 	margin-bottom: 10px;
-	
-	
+
+
 }
 .detailsMobile h1{
 	font-family: 'Title';
@@ -137,7 +137,7 @@
 	display: block;
     position: relative;
     margin: 5px;
-    
+
 }
 .details h1{
     text-align: center;
@@ -344,9 +344,9 @@ figure.effect-layla:hover img {
 	.detailsMobile{
 		display: block;
 	}
-	
+
 	.eventBoxWrap{
 		padding: 0;
 	}
-	
+
 }
