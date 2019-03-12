@@ -9,7 +9,7 @@
 ::-webkit-scrollbar
 {
 	width: 12px;
-	background-color: #F5F5F5;
+	background-color: #28282a;
 }
 
 ::-webkit-scrollbar-thumb
@@ -234,16 +234,22 @@ body{
     
     #primaryNav{
         padding: 0;
-        height: 10vh;
+        width: 100vw;
+        height: 15vh;
     }
     .navbar-brand{
         padding: 20px;
+    }
+    #page_container{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15vh;
     }
     #navbarBasicExample{
         display: none;
         background: black;
         height: 90vh;
-        top: 10vh;
+        top: 15vh;
         padding-top: 100px;
         padding: 20px;
         width: 60vw;

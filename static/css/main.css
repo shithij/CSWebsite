@@ -97,8 +97,8 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	.home_page_menu {
-		background: #1b1f22;
+	#home_page_menu {
+		background: none !important;
 		color: white;
 	}
 
